@@ -1,0 +1,43 @@
+#container-banner {
+    height: min-content;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  /* .marquee {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    width: 100vw;
+    white-space: nowrap;
+  }
+  
+  .marquee--inner {
+    display: block;
+    width: 200%;
+    position: absolute;
+    animation: marquee 5s linear infinite;
+  }
+  
+  span {
+    font-size: 5.1rem;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    width: 50%;
+    float: left;
+    overflow: hidden;
+  }
+  
+  @keyframes marquee {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: -100%;
+    }
+  }
+   */
