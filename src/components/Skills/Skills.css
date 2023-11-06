@@ -1,5 +1,5 @@
 #skills-container{
-    height: 100vh;
+    height: max-content;
     width: 100%;
     background-color: white;
     color: black;
@@ -96,4 +96,29 @@
     overflow: hidden;
     text-transform: uppercase;
   }
-  
+  #data-p{
+    height: 100vh;
+    width: 100%;
+  }
+
+
+#projects{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0% 5%;
+}
+
+:is(#p-1 , #p-2 , #p-3, #p-4){
+    border: 2px solid black;
+    padding: 1% 2%;
+    text-transform: capitalize;
+    font-size: 3vmin;
+    font-weight: 600;
+}
+
+:is(#p-1 , #p-2 , #p-3, #p-4):hover{
+    background-color: black;
+    color: white;
+}
+

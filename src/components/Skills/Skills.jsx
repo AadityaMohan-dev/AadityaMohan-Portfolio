@@ -8,7 +8,7 @@ function Skills() {
   return (
     <>
       <div id="skills-container">
-      <div class="marquee-about">
+        <div class="marquee-about">
           <div class="marquee-about-inner">
             <span>
               <div>eat ☻ sleep ☻ code ☻ repeat ☻</div>
@@ -18,13 +18,19 @@ function Skills() {
 
         <div id="p-nav">
           <div id="icon ">
-          <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/down-right.png" alt="down-right"/>
+            <img
+              width="50"
+              height="50"
+              src="https://img.icons8.com/ios-filled/50/down-right.png"
+              alt="down-right"
+            />
           </div>
           <div id="head">
             <h1>Project</h1>
           </div>
         </div>
-        <div id="table">
+        <div id="data-p">
+          <div id="table">
             <div id="timeline">
               <h1>timeline</h1>
               <h3>2023</h3>
@@ -49,7 +55,7 @@ function Skills() {
               <h3>mysql</h3>
             </div>
 
-            <div id="industry" >
+            <div id="industry">
               <h1>industry</h1>
               <div id="industry-data">
                 <h3>#webapp</h3>
@@ -58,6 +64,23 @@ function Skills() {
               </div>
             </div>
           </div>
+          <div id="projects-grid">
+            <div id="projects">
+              <div id="p-1" className="flex justify-between">
+                <a href="">wheel chair management</a>
+                <img width="30" height="30" src="https://img.icons8.com/3d-fluency/94/right.png" alt="right"/>              </div>
+              <div id="p-2" className="flex justify-between">
+                <a href="">nike clone</a>
+                <img width="30" height="30" src="https://img.icons8.com/3d-fluency/94/right.png" alt="right"/>              </div>
+              <div id="p-3" className="flex justify-between">
+                <a href="">e-commerce website</a>
+                <img width="30" height="30" src="https://img.icons8.com/3d-fluency/94/right.png" alt="right"/>              </div>
+              <div id="p-4" className="flex justify-between">
+                <a href="">portfolio website</a>
+                <img width="30" height="30" src="https://img.icons8.com/3d-fluency/94/right.png" alt="right"/>              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
